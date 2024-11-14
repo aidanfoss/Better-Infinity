@@ -6,7 +6,8 @@
   "name": "Better Infinity",
   "description": "Dont need arrows anymore!",
   "authors": [
-    "MSponge"
+    "MSponge",
+    "quantumaidan"
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/better-infinity",
@@ -14,7 +15,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/binfinity/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -27,9 +28,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.11",
+    "fabricloader": ">=0.14.22",
     "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "minecraft": "1.20.2",
     "java": ">=17"
   },
   "suggests": {
